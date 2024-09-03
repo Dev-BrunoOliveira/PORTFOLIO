@@ -1,0 +1,62 @@
+header {
+    background-color: #222;
+    padding: 25px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: 200;
+    color: #00e0ff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 10px; /* Espaçamento entre o título e a faixa */
+}
+
+header .underline {
+    width: 10%; /* Ajuste a largura conforme necessário */
+    height: 0.5px; /* Altura da faixa */
+    margin-bottom: 5px; /* Espaçamento entre a faixa e a navegação */
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    color: #00e0ff;
+}
+
+header nav a {
+    margin-right: 1.3em;
+    font-size: 1.5em;
+    color: #00e0ff;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+header h1:hover,
+header nav a:hover {
+    color: #fff;
+}
+
+/* Estilo para a foto de perfil */
+.profile-photo {
+    text-align: center;
+    margin: 20px auto; /* Centraliza o elemento e adiciona margem */
+}
+
+.profile-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Torna a imagem circular, se desejado */
+    border: 2px solid #00e0ff; /* Adiciona uma borda de destaque, se desejado */
+}
+
+.profile-photo figcaption {
+    font-size: 1.5em; /* Ajuste conforme necessário */
+    color: #333;
+    margin-top: 8px; /* Espaçamento entre a imagem e a legenda */
+}
+
