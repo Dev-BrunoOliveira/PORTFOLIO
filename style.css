@@ -19,7 +19,6 @@ body {
 
 header {
   background: #f8b92c;
-  border-bottom: 2px solid #e69316;
   padding: 1rem 2rem;
   margin-bottom: 70px;
 }
@@ -183,7 +182,6 @@ h1 {
   padding: 1rem 1rem;
   background: #111;
   text-align: center;
-  border-top: 2px solid #e69316;
 }
 
 #contato h2 {
