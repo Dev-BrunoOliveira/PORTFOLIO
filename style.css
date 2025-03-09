@@ -7,7 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background-image: url("IMG/renascentista.jpg");
+  background-image: url("IMG/Retro.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background: #f8b92c;
+  background: #8A2BE2;
   padding: 1rem 2rem;
   margin-bottom: 70px;
 }
@@ -31,7 +31,7 @@ header .container {
 }
 
 header nav a {
-  color: #82000b;
+  color: #ffffff;
   margin-left: 1rem;
   text-decoration: none;
   font-weight: 600;
@@ -69,7 +69,7 @@ h1 {
 }
 
 .hero .btn {
-  background: #e69316;
+  background: #8A2BE2;
   color: #fff;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
@@ -80,7 +80,7 @@ h1 {
 }
 
 .hero .btn:hover {
-  background: #e69316;
+  background: #ffffff;
   transform: scale(1.1);
 }
 
@@ -88,7 +88,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   justify-content: center;
-  color: #82000b;
+  color: #ffffff;
 }
 
 #projetos {
@@ -109,7 +109,7 @@ h1 {
 }
 
 #projetos h2 {
-  color: #e69316;
+  color: #8A2BE2;
   margin-bottom: 1rem;
   font-size: 35px;
   font-family: "Montserrat", sans-serif;
@@ -125,7 +125,7 @@ h1 {
 
 .card {
   background: #111;
-  border: 2px solid #e69316;
+  border: 2px solid #8A2BE2;
   border-radius: 10px;
   padding: 1rem;
   width: 300px;
@@ -153,13 +153,13 @@ h1 {
 }
 
 .card h3 {
-  color: #e69316;
+  color: #8A2BE2;
   margin-bottom: 0.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .card .btn {
-  background: #e69316;
+  background: #8A2BE2;
   color: #fff;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -170,12 +170,12 @@ h1 {
 }
 
 .card .btn:hover {
-  background: #e69316;
+  background: #8A2BE2;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #e69316;
+  box-shadow: 0 0 15px #ffffff;
 }
 
 #contato {
@@ -185,7 +185,7 @@ h1 {
 }
 
 #contato h2 {
-  color: #e69316;
+  color: #ffffff;
   margin-bottom: -10px;
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
@@ -205,7 +205,7 @@ h1 {
 }
 
 .social-links a:hover {
-  color: #82000b;
+  color: #ffffff;
   transform: scale(1.1);
 }
 
@@ -244,7 +244,7 @@ h1 {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  border: 3px solid #e69316;
+  border: 3px solid #8A2BE2;
   box-shadow: 0 0 15px rgba(224, 124, 9, 0.5);
   object-fit: cover;
 }
@@ -267,7 +267,7 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 10px;
-  border-top: 2px solid #e69316;
+  border-top: 2px solid #8A2BE2;
   margin-top: auto;
 }
 
@@ -275,12 +275,12 @@ footer {
   padding: 2rem;
   background: #000;
   text-align: center;
-  border-top: 2px solid #e69316;
+  border-top: 2px solid #8A2BE2;
   margin-top: 2rem;
 }
 
 #sobre-mim .techs h4 {
-  color: #e69316;
+  color: #8A2BE2;
   margin-bottom: 1rem;
   font-size: 35px;
   font-family: "Montserrat", sans-serif;
@@ -296,7 +296,7 @@ footer {
 
 #sobre-mim .card {
   background: #111;
-  border: 2px solid #e69316;
+  border: 2px solid #8A2BE2;
   border-radius: 10px;
   padding: 1rem;
   width: 150px;
@@ -315,7 +315,7 @@ footer {
 
 #sobre-mim .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #e69316;
+  box-shadow: 0 0 15px #8A2BE2;
 }
 
 #nome {
@@ -356,12 +356,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #82000b;
+  color: #ffffff;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #e69316;
+  color: #f7d40f;
 }
 
 .hamburger {
@@ -373,7 +373,7 @@ nav ul li a:hover {
 .hamburger div {
   width: 25px;
   height: 3px;
-  background-color: #82000b;
+  background-color: #ffffff;
   margin: 4px 0;
 }
 
