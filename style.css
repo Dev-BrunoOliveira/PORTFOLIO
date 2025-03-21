@@ -346,6 +346,8 @@ position: absolute;
 @media (max-width: 768px) {
   #nome {
     font-size: 2rem; 
+    top: 55%;
+    left: 20%;
   }
 }
 
