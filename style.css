@@ -178,167 +178,26 @@ h1 {
   box-shadow: 0 0 15px #ffffff;
 }
 
-#contato {
-  padding: 1rem 1rem;
-  background: #111;
-  text-align: center;
-}
-
-#contato h2 {
-  color: #ffffff;
-  margin-bottom: 20px; 
-  font-size: 36px;
-  font-family: "Montserrat", sans-serif;
-}
-
-#contato p {
-  margin-top: 30px; 
-  font-size: 1.1rem;
-  color: #fff;
-  opacity: 0.8;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: -2px;
-}
-
-.social-links a {
-  color: #fff;
-  font-size: 2rem;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #ffffff;
-  transform: scale(1.1);
-}
-
-#contato p {
-  margin-top: 1.5rem;
-  font-size: 1.1rem;
-  color: #fff;
-  opacity: 0.8;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.about-text {
-  flex: 1;
-  text-align: left;
-}
-
-.about-photo {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-photo img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  border: 3px solid #8A2BE2;
-  box-shadow: 0 0 15px rgba(224, 124, 9, 0.5);
-  object-fit: cover;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-main {
-  flex: 1;
-}
-
-footer {
-  background: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px;
-  border-top: 2px solid #8A2BE2;
-  margin-top: auto;
-}
-
-#sobre-mim .techs {
-  padding: 2rem;
-  background: #000;
-  text-align: center;
-  border-top: 2px solid #8A2BE2;
-  margin-top: 2rem;
-}
-
-#sobre-mim .techs h4 {
-  color: #8A2BE2;
-  margin-bottom: 1rem;
-  font-size: 35px;
-  font-family: "Montserrat", sans-serif;
-}
-
-#sobre-mim .cards-container {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  padding-bottom: 1rem;
-}
-
-#sobre-mim .card {
-  background: #111;
-  border: 2px solid #8A2BE2;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#sobre-mim .card img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-}
-
-#sobre-mim .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #8A2BE2;
-}
-
 #nome {
-  position: absolute;
-  top: 58%;
-  left: 42%;
-  font-size: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
   font-weight: bold;
   color: white;
   overflow: hidden;
-  white-space: nowrap;
+  max-width: 100%;
   border-right: 3px solid white;
   animation: blink 0.9s infinite alternate;
+}
+
+@media (max-width: 768px) {
+  #nome {
+    font-size: 1.5rem;
+    border-right: 2px solid white;
+  }
 }
 
 @keyframes blink {
@@ -347,141 +206,5 @@ footer {
   }
   to {
     border-color: transparent;
-  }
-}
-
-@media (max-width: 768px) {
-  #sobre-mim .card img {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  color: #f7d40f;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background-color: #ffffff;
-  margin: 4px 0;
-}
-
-@media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  header nav a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-
-  .hero {
-    padding: 4rem 1rem;
-  }
-
-  .hero h2 {
-    font-size: 2rem;
-  }
-
-  .hero .btn {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-  }
-
-  #projetos .grid {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .card {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-text {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  .about-photo img {
-    width: 250px;
-    height: 250px;
-  }
-
-  #contato {
-    padding: 1.5rem;
-  }
-
-  .social-links a {
-    font-size: 1.2rem;
-    margin: 0.5rem;
-  }
-
-  footer {
-    padding: 0.5rem 0;
-    font-size: 0.875rem;
-  }
-
-  #sobre-mim .cards-container {
-    gap: 1rem;
-  }
-
-  #sobre-mim .card {
-    width: 120px;
-  }
-
-  header nav ul {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  header nav.active ul {
-    display: flex;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  header nav ul li {
-    margin: 1rem 0;
-  }
-
-  header nav a {
-    font-size: 1.2rem;
   }
 }
