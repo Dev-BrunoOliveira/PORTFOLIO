@@ -329,7 +329,7 @@ footer {
 }
 
 #nome {
-  position: fixed;
+  position: absolute;
   top: 58%;
   left: 42%;
   transform: translate(-50%, );
