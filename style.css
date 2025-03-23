@@ -272,6 +272,13 @@ main {
   flex: 1;
 }
 
+.logo {
+  position: absolute;
+  top: -10px; 
+  left: -21px; 
+  width: 90px; 
+}
+
 footer {
   background: #000000;
   color: #ffffff;
@@ -340,6 +347,20 @@ footer {
   white-space: nowrap;
   border-right: 3px solid white;
   animation: blink 0.9s infinite alternate;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+    top: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+    left: -20px;
+    top: -9px;
+  }
 }
 
 @media (max-width: 768px) {
