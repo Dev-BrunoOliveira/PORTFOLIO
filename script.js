@@ -10,7 +10,7 @@ const texto = "Bruno Oliveira";
 let index = 0;
 
 function escrever() {
-  nomeElemento.innerHTML = ""; // Limpa o texto antes de iniciar
+  nomeElemento.innerHTML = "";
   index = 0;
   digitar();
 }
