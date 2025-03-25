@@ -451,6 +451,10 @@ nav ul li a:hover {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  position: fixed;
+  top: 1px; 
+  left: 10px; 
+  z-index: 1000;
 }
 
 .hamburger div {
