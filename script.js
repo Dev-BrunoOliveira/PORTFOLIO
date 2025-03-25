@@ -10,10 +10,16 @@ const texto = "Bruno Oliveira";
 let index = 0;
 
 function escrever() {
+  nomeElemento.innerHTML = ""; // Limpa o texto antes de iniciar
+  index = 0;
+  digitar();
+}
+
+function digitar() {
   if (index < texto.length) {
     nomeElemento.innerHTML += texto.charAt(index);
     index++;
-    setTimeout(escrever, 150);
+    setTimeout(digitar, 150);
   }
 }
 
