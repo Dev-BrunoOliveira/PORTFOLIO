@@ -374,6 +374,7 @@ footer {
   white-space: nowrap;
   border-right: 3px solid white;
   animation: blink 0.9s infinite alternate;
+  z-index: 1;
 }
 @media (max-width: 768px) {
   .logo {
@@ -392,14 +393,23 @@ footer {
 
 @media (max-width: 768px) {
   #nome {
-    font-size: 2rem;
+    font-size: 1.7rem;
     top: 55%;
-    left: 20%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
   }
+
   .menu-ativo ~ #nome {
-    margin-top: 250px; 
+    margin-top: 250px;
+  }
 }
+
+nav {
+  position: relative;
+  z-index: 1000;
 }
+
 
 @keyframes blink {
   from {
