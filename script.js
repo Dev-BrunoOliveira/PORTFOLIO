@@ -6,7 +6,7 @@ hamburger.addEventListener("click", () => {
 });
 
 const nomeElemento = document.getElementById("nome");
-const texto = "Dev-Bruno Oliveira";
+const texto = "Bruno Oliveira";
 let index = 0;
 
 function escrever() {
