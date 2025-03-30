@@ -150,6 +150,12 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.card-techs:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffffff;
+}
+
 .cards-container {
   display: flex;
   justify-content: space-around;
