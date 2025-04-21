@@ -180,6 +180,11 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+h3 {
+  color: #8a2be2;
+}
+
+
 .card .btn {
   background: #8a2be2;
   color: #fff;
@@ -192,8 +197,10 @@ h1 {
 }
 
 .card .btn:hover {
-  background: #8a2be2;
+  background: #ffffff;
+  color: #8a2be2;
 }
+
 
 .card:hover {
   transform: scale(1.05);
@@ -201,22 +208,23 @@ h1 {
 }
 
 #contato {
+  margin-top: -70px;
   padding: 1rem 1rem;
-  background: #111;
+  background: #eec249;
   text-align: center;
 }
 
 #contato h2 {
-  color: #ffffff;
+  color: #8a2be2;
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 46px;
   font-family: "Montserrat", sans-serif;
 }
 
 #contato p {
   margin-top: 30px;
   font-size: 1.1rem;
-  color: #fff;
+  color: #8a2be2;
   opacity: 0.8;
   max-width: 600px;
   margin-left: auto;
@@ -231,20 +239,20 @@ h1 {
 }
 
 .social-links a {
-  color: #fff;
+  color: #8a2be2;
   font-size: 2rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #ffffff;
+  color: #2c0055;
   transform: scale(1.1);
 }
 
 #contato p {
   margin-top: 1.5rem;
   font-size: 1.1rem;
-  color: #fff;
+  color: #8a2be2;
   opacity: 0.8;
   max-width: 600px;
   margin-left: auto;
@@ -388,7 +396,7 @@ footer {
   position: absolute;
   top: 58%;
   left: 42%;
-  transform: translate(-50%, );
+  transform: translate(-50%,);
   font-size: 3rem;
   font-weight: bold;
   color: white;
