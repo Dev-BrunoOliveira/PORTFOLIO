@@ -439,16 +439,6 @@ nav {
   z-index: 1000;
 }
 
-
-@keyframes blink {
-  from {
-    border-color: white;
-  }
-  to {
-    border-color: transparent;
-  }
-}
-
 @keyframes blink {
   from {
     border-color: white;
