@@ -405,6 +405,104 @@ footer {
   animation: blink 0.9s infinite alternate;
   z-index: 1;
 }
+
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #111;
+  background-image: none;
+}
+
+body.light-mode header {
+  background: #eec249;
+}
+
+body.light-mode .hero {
+  background: #ffffff;
+  color: #111;
+}
+
+body.light-mode .card,
+body.light-mode .card-techs,
+body.light-mode #sobre-mim .card {
+  background: #fff;
+  border: 2px solid #eec249;
+  color: #111;
+}
+
+body.light-mode .card h3,
+body.light-mode #sobre-mim .techs h4 {
+  color: #5D3E7A;
+}
+
+body.light-mode #projetos h2,
+body.light-mode #contato h2 {
+  color: #fff;
+}
+
+body.light-mode .btn {
+  background-color: #eec249;
+  color: #5D3E7A;
+}
+
+body.light-mode .btn:hover {
+  background-color: #5D3E7A;
+  color: #ffffff;
+}
+
+body.light-mode footer {
+  background-color: #f1f1f1;
+  color: #111;
+  border-top: 2px solid #eec249;
+}
+
+body.light-mode nav ul li a {
+  color: #111;
+}
+
+body.light-mode nav ul li a:hover {
+  color: #8a2be2;
+}
+
+body.light-mode .social-links a {
+  color: #ffffff;
+}
+
+body.light-mode .social-links a:hover {
+  color: #eec249;
+}
+
+body.light-mode #curriculo {
+  background-color: #5D3E7A;
+}
+
+body.light-mode #curriculo h2,
+body.light-mode #curriculo p {
+  color: #ffffff;
+}
+
+#toggle-mode {
+  position: fixed;
+  top: 0;
+  right: 2rem;
+  margin-top: 0.2rem;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  #toggle-mode {
+    margin-top: 0.1rem;
+    right: 1rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
   .logo {
     width: 100px;

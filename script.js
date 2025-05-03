@@ -26,3 +26,20 @@ function digitar() {
 window.onload = () => {
   escrever();
 };
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("toggle-mode");
+  const body = document.body;
+
+  toggleButton.addEventListener("click", () => {
+    body.classList.toggle("light-mode");
+    localStorage.setItem("theme", body.classList.contains("light-mode") ? "light" : "dark");
+  });
+
+  if (localStorage.getItem("theme") === "light") {
+    body.classList.add("light-mode");
+  }
+});
+
