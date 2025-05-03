@@ -36,11 +36,8 @@
             <li><a href="index.html">Início</a></li>
             <li><a href="sobre.html">Sobre Mim</a></li>
             <li><a href="projetos.html">Projetos</a></li>
+            <button id="toggle-mode" class="btn">Alternar Tema</button>
           </ul>
-          <button id="toggle-mode" class="btn">Alternar Tema</button>
-
-          
-          
         </nav>
       </div>
     </header>
@@ -164,5 +161,16 @@
     </section>
     
     <script src="./script.js"></script>
+    <script>
+      const toggleBtn = document.getElementById('toggle-mode');
+    
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
+          toggleBtn.style.display = 'none';
+        } else {
+          toggleBtn.style.display = 'block';
+        }
+      });
+    </script>    
   </body>
 </html>
