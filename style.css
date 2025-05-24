@@ -128,9 +128,9 @@ h1 {
   border: 2px solid #8a2be2;
   border-radius: 10px;
   padding: 1.5rem;
-  width: 400px; 
-  max-width: 450px; 
-  height: 600px; 
+  width: 400px;
+  max-width: 450px;
+  height: 600px;
   transition: transform 0.2s ease, box-shadow 0.1s ease;
   display: flex;
   flex-direction: column;
@@ -142,9 +142,9 @@ h1 {
   border: 2px solid #8a2be2;
   border-radius: 10px;
   padding: 1.5rem;
-  width: 100px; 
-  height: 100px; 
-  max-width: 450px; 
+  width: 100px;
+  height: 100px;
+  max-width: 450px;
   transition: transform 0.2s ease, box-shadow 0.1s ease;
   display: flex;
   flex-direction: column;
@@ -184,7 +184,6 @@ h3 {
   color: #ffffff;
 }
 
-
 .card .btn {
   background: #8a2be2;
   color: #fff;
@@ -201,7 +200,6 @@ h3 {
   color: #8a2be2;
 }
 
-
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #ffffff;
@@ -210,7 +208,7 @@ h3 {
 #contato {
   margin-top: -70px;
   padding: 1rem 1rem;
-  background: #5D3E7A;
+  background: #5d3e7a;
   text-align: center;
 }
 
@@ -282,8 +280,8 @@ h3 {
 .about-photo img {
   width: 400px;
   height: 500px;
-border-radius: 70px;
-  border: 3px solid #5D3E7A;
+  border-radius: 70px;
+  border: 3px solid #5d3e7a;
   box-shadow: 0 0 15px #fff;
   object-fit: cover;
 }
@@ -365,16 +363,15 @@ footer {
 #curriculo h2 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #5D3E7A;
+  color: #5d3e7a;
   margin-bottom: 10px;
 }
 
 #curriculo p {
   font-size: 1.2rem;
-  color: #5D3E7A;
+  color: #5d3e7a;
   margin-bottom: 10px;
 }
-
 
 .btn {
   display: inline-block;
@@ -388,14 +385,14 @@ footer {
 }
 
 .btn:hover {
-  background-color: #5D3E7A
+  background-color: #5d3e7a;
 }
 
 #nome {
   position: absolute;
   top: 58%;
   left: 42%;
-  transform: translate(-50%,);
+  transform: translate(-50% 50%);
   font-size: 3rem;
   font-weight: bold;
   color: white;
@@ -431,7 +428,7 @@ body.light-mode #sobre-mim .card {
 
 body.light-mode .card h3,
 body.light-mode #sobre-mim .techs h4 {
-  color: #5D3E7A;
+  color: #5d3e7a;
 }
 
 body.light-mode #projetos h2,
@@ -441,11 +438,11 @@ body.light-mode #contato h2 {
 
 body.light-mode .btn {
   background-color: #eec249;
-  color: #5D3E7A;
+  color: #5d3e7a;
 }
 
 body.light-mode .btn:hover {
-  background-color: #5D3E7A;
+  background-color: #5d3e7a;
   color: #ffffff;
 }
 
@@ -472,7 +469,7 @@ body.light-mode .social-links a:hover {
 }
 
 body.light-mode #curriculo {
-  background-color: #5D3E7A;
+  background-color: #5d3e7a;
 }
 
 body.light-mode #curriculo h2,
@@ -574,8 +571,8 @@ nav ul li a:hover {
   flex-direction: column;
   cursor: pointer;
   position: sticky;
-  top: 1px; 
-  left: 10px; 
+  top: 1px;
+  left: 10px;
   z-index: 1000;
 }
 
