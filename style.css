@@ -410,7 +410,7 @@ body.light-mode {
 }
 
 body.light-mode header {
-  background: #eec249;
+  background: #B3D89C;
 }
 
 body.light-mode .hero {
@@ -422,13 +422,13 @@ body.light-mode .card,
 body.light-mode .card-techs,
 body.light-mode #sobre-mim .card {
   background: #fff;
-  border: 2px solid #eec249;
+  border: 2px solid #B3D89C;
   color: #111;
 }
 
 body.light-mode .card h3,
 body.light-mode #sobre-mim .techs h4 {
-  color: #5d3e7a;
+  color: #000000;
 }
 
 body.light-mode #projetos h2,
@@ -437,27 +437,27 @@ body.light-mode #contato h2 {
 }
 
 body.light-mode .btn {
-  background-color: #eec249;
-  color: #5d3e7a;
+  background-color: #B3D89C;
+  color: #ffffff;
 }
 
 body.light-mode .btn:hover {
-  background-color: #5d3e7a;
+  background-color: #B3D89C;
   color: #ffffff;
 }
 
 body.light-mode footer {
   background-color: #f1f1f1;
   color: #111;
-  border-top: 2px solid #eec249;
+  border-top: 2px solid #B3D89C;
 }
 
 body.light-mode nav ul li a {
-  color: #111;
+  color: #ffffff;
 }
 
 body.light-mode nav ul li a:hover {
-  color: #8a2be2;
+  color: rgb(31, 61, 40);
 }
 
 body.light-mode .social-links a {
@@ -465,7 +465,7 @@ body.light-mode .social-links a {
 }
 
 body.light-mode .social-links a:hover {
-  color: #eec249;
+  color: #84a072;
 }
 
 body.light-mode #curriculo {
