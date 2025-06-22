@@ -24,11 +24,6 @@ function digitar() {
   }
 }
 
-window.onload = () => {
-  escrever();
-  aplicarTemaSalvo();
-};
-
 const toggleButton = document.getElementById("toggle-mode");
 const body = document.body;
 
@@ -56,7 +51,6 @@ if (toggleButton) {
 }
 
 window.onload = () => {
+  escrever();
   aplicarTemaSalvo();
 };
-
-
