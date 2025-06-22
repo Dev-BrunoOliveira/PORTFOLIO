@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Dev Bruno Oliveira</title>
-     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="apple-mobile-web-app-title" content="MyWebSite">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,18 +33,23 @@
   <body>
     <header>
       <div class="container">
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
         <nav>
-          <div class="hamburger" id="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
           <ul id="nav-links">
             <li><a href="index.html">Início</a></li>
             <li><a href="sobre.html">Sobre Mim</a></li>
             <li><a href="projetos.html">Projetos</a></li>
           </ul>
         </nav>
+        <label class="switch">
+          <input type="checkbox" id="toggle-mode" />
+          <span class="slider"></span>
+        </label>
       </div>
     </header>
 

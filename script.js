@@ -2,6 +2,7 @@ const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector("nav");
 
 hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
   nav.classList.toggle("active");
 });
 
@@ -25,20 +26,37 @@ function digitar() {
 
 window.onload = () => {
   escrever();
+  aplicarTemaSalvo();
 };
 
+const toggleButton = document.getElementById("toggle-mode");
+const body = document.body;
 
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleButton = document.getElementById("toggle-mode");
-  const body = document.body;
-
-  toggleButton.addEventListener("click", () => {
-    body.classList.toggle("light-mode");
-    localStorage.setItem("theme", body.classList.contains("light-mode") ? "light" : "dark");
-  });
-
-  if (localStorage.getItem("theme") === "light") {
+function aplicarTemaSalvo() {
+  const temaSalvo = localStorage.getItem("theme");
+  if (temaSalvo === "light") {
     body.classList.add("light-mode");
+    if (toggleButton) toggleButton.checked = true;
+  } else {
+    body.classList.remove("light-mode");
+    if (toggleButton) toggleButton.checked = false;
   }
-});
+}
+
+if (toggleButton) {
+  toggleButton.addEventListener("change", () => {
+    if (toggleButton.checked) {
+      body.classList.add("light-mode");
+      localStorage.setItem("theme", "light");
+    } else {
+      body.classList.remove("light-mode");
+      localStorage.setItem("theme", "dark");
+    }
+  });
+}
+
+window.onload = () => {
+  aplicarTemaSalvo();
+};
+
 
